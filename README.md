@@ -38,7 +38,7 @@ set extracted from the CrowdFlower data.
 #### B) data/crowdflower :
 Source and Derived Data used in analysis:
 
-1. **Airline-Sentiment-2-w-AA.csv**: Corpus of ~15,000 tweets from February 2015 directed to U.S.-based airlines. Each tweet was labelled as positive or negative in sentiment by CrowdFlower's contributors. 
+1. **Airline-Sentiment-2-w-AA.csv**: Corpus of ~15,000 tweets from February 2015 directed to U.S.-based airlines. Each tweet was labeled as positive or negative in sentiment by CrowdFlower's contributors. 
 
 2. **airline_sentiment_with_tb_vader.pkl**: Pandas dataframe containing all tweets in the **Airline-Sentiment-2-w-AA.csv** datafile, with TextBlob and Sentiment polarity scores matched to tweets. Output of **AddSentiment.py** data.
 
