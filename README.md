@@ -5,7 +5,7 @@ How does the performance of various supervised and unsupervised machine learning
 Read my [blog post](http://www.huguedata.com/2016/07/10/frustrating-skies/) for a full discussion.
 
 
-#### Code Dependencies
+### Code Dependencies
 * Numpy
 * Pandas
 * Sklearn
@@ -23,17 +23,19 @@ Read my [blog post](http://www.huguedata.com/2016/07/10/frustrating-skies/) for 
 * MongoDB and PyMongo
 
 
-#### Repo Contents
-##### Home folder : 
+### Repo Contents
+#### A) Home folder : 
 Python Scripts and Notebooks :
 
 1. **TextBlob-Sentiment-Analysis.ipynb**: Unsupervised sentiment analysis of 1,000 tweets to United Airlines using the TextBlob polarity analyzer
+
 2. **AddSentiment.py**: Add TextBlob and VADER sentiment polarity scores (ranging from -1.0 for very negative to 1.0 for very positive) to CrowdFlower data
+
 3. **Airline-Sentiment.ipynb**: Compare performance of unsupervised (TextBlob, VADER) and supervised (Naive Bayes, SVM) sentiment classifiers on a test 
 set extracted from the CrowdFlower data.
 
 
-##### data/crowdflower :
+#### B) data/crowdflower :
 Source and Derived Data used in analysis:
 
 1. **Airline-Sentiment-2-w-AA.csv**: Corpus of ~15,000 tweets from February 2015 directed to U.S.-based airlines. Each tweet was labelled as positive or negative in sentiment by CrowdFlower's contributors. 
@@ -43,10 +45,11 @@ Source and Derived Data used in analysis:
 Note that NLTK's twitter samples and tweets from the Twitter API are also used in analysis, but are not saved to this repo.
 
 
-##### graphics/ :
+#### C) graphics/ :
 JPG/ PNG files containing graphics used in analysis.
 
-##### deck/ :
+
+#### D) deck/ :
 Final PowerPoint Deck for Metis presentation given at Metis on 5/31/2016
 
 
