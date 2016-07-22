@@ -24,7 +24,6 @@ Read my [blog post](http://www.huguedata.com/2016/07/10/frustrating-skies/) for 
 
 
 ### Data
-There were three sources of data used in this analysis:
 1. *NLTK Tweet Data*: General twitter samples provided by NLTK, labeled by sentiment (either positive or negative) (not saved to this repo, but available from NLTK).
 2. *CrowdFlower Tweet Data*: A corpus of tweets to U.S. airlines, scraped from twitter and labeled by sentiment by CrowdFlower contributors (saved here: *data/crowdflower/Airline-Sentiment-2-w-AA.csv*).
 3. *Twitter API Data*: A stream of 1,000 tweets to United Airlines sourced from the Twitter API (not saved to this repo).
