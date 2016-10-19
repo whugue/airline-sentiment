@@ -11,9 +11,7 @@ The table below provides high-level overviews of what each analysis script does.
 Program 	| Description | 
 ----------- | ----------- |
 01-Apply-Sentiment.py | Add rule-based TextBlob and VADER sentiment polarity scores to CrowdFlower data.
-
 02-Text-Blob-Sentiment-Analysis.ipynb| Sentiment analysis of 1,000 tweets to United Airlines using TextBlob.
-
 03-Airline-Sentiment-Analysis.ipynb | Compare performance of rule-based and supervised ML-based sentiment classifiers.
 
 
