@@ -1,3 +1,12 @@
+
+"""
+Script:     01-Apply-Sentiment
+Purpose:    Add rule-based TextBlob and VADER sentiment polarity scores to Tweets from CrowdFlower data
+Input:      https://www.crowdflower.com/wp-content/uploads/2016/03/Airline-Sentiment-2-w-AA.csv 
+			(Annotated CrowdFlower Data - learn more about crowdflower here: https://www.crowdflower.com/company/)
+Output:     data/airline_sentiment_with_tb_vader.pkl
+"""
+
 import numpy as np
 import pandas as pd
 import pickle
