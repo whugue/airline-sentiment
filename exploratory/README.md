@@ -1,4 +1,4 @@
-### Metis Project 4: Airline Sentiment Analysis
+### Metis Project 4: Rule-Base vs. ML-Trained Sentiment Analysis
 How does the performance of various supervised ML and rule-based methods compare when tasked with identifying sentiment in Tweets to U.S. airlines?
 
 Read my [blog post](http://www.huguedata.com/2016/07/10/frustrating-skies/) for a full discussion, or check out the [slides](https://github.com/whugue/airline-sentiment/blob/master/exploratory/deck/airline%20sentiment%20presentation.pdf) from my Metis presentation.
