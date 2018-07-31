@@ -1,0 +1,11 @@
+regex
+nltk
+numpy
+pandas
+tweepy
+pymongo
+seaborn
+textblob
+matplotlib
+scikit-learn
+vaderSentiment
